@@ -1,6 +1,7 @@
 import { LightningElement} from 'lwc';
 export default class RecordEditFormCreateExampleLWC extends LightningElement {
-    handleSuccess(event) {
+    //handleSuccess(event) {
+        handleSuccess(event) {
         console.log('onsuccess event recordEditForm',event.detail.id)
     }
     handleSubmit(event) {
