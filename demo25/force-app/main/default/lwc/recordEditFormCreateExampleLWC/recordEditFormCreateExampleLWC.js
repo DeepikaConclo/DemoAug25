@@ -13,7 +13,7 @@ export default class RecordEditFormCreateExampleLWC extends LightningElement {
                 actionName: 'home'
             }
         };
-        this[NavigationMixin.GenerateUrl](this.accountHomePageRef)
+        this[NavigationMixin.GenerateUrl](this.contactHomePageRef)
             .then(url => this.url = url);
     }
     handleSuccess(event) {
